@@ -7,3 +7,4 @@ bower_components
 bower.json
 /source/js/*
 !/source/js/_*
+/node_modules/
