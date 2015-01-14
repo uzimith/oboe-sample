@@ -53,7 +53,7 @@ Tilt::CoffeeScriptTemplate.default_bare = true
 #deploy
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.build = true
+  deploy.build_before = true
 end
 
 configure :build do
