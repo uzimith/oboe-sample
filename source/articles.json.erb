@@ -1,0 +1,9 @@
+<%
+entries = {article: []}
+10000.times.each do |i|
+  entry = {
+    :text => lorem.paragraphs(3),
+  }
+  entries[:article] << entry
+end
+%><%=entries.to_json %>
